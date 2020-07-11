@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Danil_Minenko</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<div class="logo_text"><p><a href="#">Danil_Minenkø</a></p></div>
+				<div class="logo_line"></div>
+			</div>
+		</div>
+	</header>
+	<section class="content">
+		<div class="container">
+			<nav class="menu">
+				<ul class="__menu">
+					<li><a href="#">Prøjects</a></li>
+					<li><a href="#">Cøntacts</a></li>
+					<li><a href="#">Bløg</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+</body>
+<script>
+	line = document.getElementsByClassName("logo_line")[0].style;
+	li = document.getElementsByTagName("li");
+	let per = 0;
+	let k = 1;
+	animations();
+	function animations() {
+		if (per <= 100) {
+			per += k;
+			line.width = per + "%";
+			if (per > 75) {
+				k -= 0.02;
+			}
+			setTimeout(animations, 10);
+		}
+	}
+</script>
+</html>

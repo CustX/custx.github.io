@@ -1,0 +1,63 @@
+html {
+	height: 100vh;
+}
+body {
+	background: linear-gradient(#e66465, #9198e5);
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+.content {
+	margin-top: 150px;
+}
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+.logo {
+	margin-top: 75px;
+}
+.logo_text {
+	display: flex;
+	justify-content: center;
+}
+.logo_line {
+	background: white;
+	margin: 0 auto;
+	height: 1px;
+	width: 100%
+}
+.logo a {
+	color: white;
+	text-decoration: none;
+	font-size: 80px;
+	padding: 0px;
+	text-align: center;
+}
+.__menu li{
+	display: flex;
+	justify-content: center;
+}
+.__menu li a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.__menu {
+	margin: 0 auto;
+	padding: 0px;
+}
+.__menu li a:hover{
+	font-size: 35px;
+	transition: 0.5s;
+}
+.menu {
+	display: flex;
+	justify-content: center;
+}
