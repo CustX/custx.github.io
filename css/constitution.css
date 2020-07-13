@@ -1,0 +1,20 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #222226;
+	font-family: sans-serif;
+}
+li {
+	display: flex;
+	padding: 0px;
+	color: white;
+}
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
