@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	let rgb = new Array;
 	$('#dick').on('click',function(){
-	$('.logo').html('Ты пидор');
+	$('.logo').html('Ага, попался!');
 	})
 	function randNum(min, max) {
 		return min + Math.floor(Math.random()*(max - min+1));
