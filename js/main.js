@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	let rgb = new Array;
 	$('#dick').on('click',function(){
-	$('.logo').html('Ты пидор');
+	$('.logo').html('Ага, попался');
 	})
 	function randNum(min, max) {
 		return min + Math.floor(Math.random()*(max - min+1));
@@ -23,8 +23,8 @@ $(document).ready(function(){
 		let r = randNum(1,3);
 		switch(r){
 			case 1:alert('Как дела?');break;
-			case 2:alert('Хуй');break;
-			case 3:alert('Пизда');break;
+			case 2:alert('Привет');break;
+			case 3:alert('Как дела');break;
 		}
 	})
 });
